@@ -1,0 +1,25 @@
+/* *{overflow-x: hidden;} */
+
+div a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+  }
+div a:hover{
+    color:orange
+}
+
+.animate {
+    animation-name : mymove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 3s;
+  }
+  
+  @keyframes mymove {
+    from {transform: translateY(-20px);}
+    to {transform: translateY(40px);}
+  }
+
+
+
